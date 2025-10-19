@@ -13,12 +13,15 @@ A simple text-based Java RPG game.
     ```bash
     cd java-rpg
     ```
-3. Create the output directory and compile the source files:
+3. Create the output directory:
     ```bash
     mkdir -p bin
+    ```
+4. Compile the source files:
+    ```bash
     javac -d bin src/*.java
     ```
-4. Run the game:
+5. Run the game:
     ```bash
     java -cp bin Main
     ```
